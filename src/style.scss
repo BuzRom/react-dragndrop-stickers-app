@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+*:active,
+*:focus {
+   outline: none;
+}
+
+body {
+   background-color: #30333a;
+   .board {
+      height: 100vh;
+      color: white;
+      user-select: none;
+      position: relative;
+
+      .title {
+         position: absolute;
+         font-family: "Noto Serif", serif;
+         color: gray;
+         top: 20%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 100%;
+         text-align: center;
+      }
+
+      .box {
+         position: absolute;
+         font-family: "Caveat", cursive;
+         font-size: 30px;
+         color: black;
+         max-width: 230px;
+         // overflow-wrap: break-word;
+         border-radius: 5px;
+         padding: 20px;
+         margin: auto;
+         cursor: move;
+
+         & textarea {
+            font-family: "Caveat", cursive;
+            font-size: 30px;
+            max-width: 200px;
+            max-height: 100%;
+            background-color: transparent;
+            border: none;
+            overflow: auto;
+         }
+
+         .card__btn {
+            position: fixed;
+            padding: 5px;
+            top: 0;
+            right: 0;
+            width: 18px;
+            height: 18px;
+            path {
+               stroke: #464545;
+            }
+            transition: 0.3s ease all;
+            cursor: pointer;
+
+            &:hover {
+               path {
+                  stroke: #000000;
+               }
+               transform: scale(1.1);
+            }
+         }
+      }
+   }
+}
