@@ -1,0 +1,2 @@
+# [Demo](https://react-dragndrop-stickers-app.herokuapp.com/)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
