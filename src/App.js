@@ -79,7 +79,7 @@ function App() {
                   autoFocus
                   onChange={(e) => { updateText(e.target.value, index) }} />)
                 :
-                (<p>{item.text}</p>)}
+                (<p style={{ whiteSpace: 'pre-line' }}>{item.text}</p>)}
               <svg onClick={(e) => deleteSticket(item.id)} className="card__btn" width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <g id="Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" strokeLinecap="round">
                   <g id="24-px-Icons" transform="translate(-364.000000, -124.000000)" stroke="#000000">

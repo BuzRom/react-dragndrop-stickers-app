@@ -2,12 +2,10 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 **Stack:**
-<ul>
-   <li>sass</li>
-   <li>react-draggable</li>
-   <li>randomcolor</li>
-   <li>uuid</li>
-</ul>
+   - sass
+   - react-draggable
+   - randomcolor
+   - uuid
 
 ### Start project:
 <pre><code>npm install</code></pre>
